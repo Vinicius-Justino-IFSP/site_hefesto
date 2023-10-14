@@ -9,38 +9,51 @@
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-    <div id="side-menu">
+    <aside class="coluna-esquerda">
         <div class="formated">
-            <div id="perfil">
-                <img src="../images/hefesto_icone.jpg" style="width: 50%;" alt="espada sendo forjada em uma bigorna">
-                <h3 style="color: #E3E2E1;">Hefesto</h3>
-            </div>
+            <figure id="perfil-hefesto">
+                <img src="../images/hefesto_icone.jpg" style="width: 50%;" alt="Desenho de uma espada sendo forjada em uma bigorna.">
+                <figcaption>Hefesto</figcaption>
+            </figure>
             <br>
-            <div id="links-externos" style="margin-bottom: 10%;">
+            <nav id="links-externos" style="margin-bottom: 10%;">
                 <h3>Links externos:</h3>
                 <ul>
-                    <li><a href="../../index.html">Página principal</a></li>
+                    <li><a href="../../index.html">Página inicial</a></li>
                 </ul>
-            </div>
+            </nav>
             <br>
-            <div id="links-internos">
+            <nav id="links-internos">
                 <h3>Links internos:</h3>
                 <ul>
 
                 </ul>
-            </div>
+            </nav>
         </div>
-    </div>
-    <div id="main">
-        <div id="topo" style="background-image: url('../images/placeholder_background.jpg'); align-items: center;">
-            <div id="topo-texto" style="text-align: center">
-                <h1 style="font-size: 50px">Ops!</h1>
-                <p style="font-size: 24px">
-                    Essa página ainda está sendo forjada! <br>
-                    Aproveite a <a href="../../index.html">página inicial</a> enquanto isso.
-                </p>
+    </aside>
+    <section class="coluna-direita">
+        <main>
+            <div id="topo" style="background-image: url('../images/placeholder_background.jpg'); align-items: center;">
+                <div id="topo-texto" style="text-align: center">
+                    <h1>Ops!</h1>
+                    <p style="font-size: 24px">
+                        Essa página ainda está sendo forjada! <br>
+                        Aproveite a <a href="../../index.html">página inicial</a> enquanto isso.
+                    </p>
+                </div>
             </div>
-        </div>
-    </div>
+        </main>
+        <footer id="rodape">
+            <h2 style="text-align: center; color: inherit;" class="formated">
+                Sobre o Dev:
+            </h2>
+            <div id="sobre-mim" class="formated" style="display: flex;">
+                <img src="../images/icone_meu.png" alt="Foto do autor da página.">
+                <p id="descricao-dev">> Vinicius Justino Cardoso, aspirante a programador. Gosto de estudar desenvolvimento de jogos, robótica e matemática. Quando tenho tempo livre, gosto de jogar video-game e assistir vídeos no youtube por horas. Espero que tenha gostado da minha página! ;) <br>
+                <br>
+                > Confira os <a href="https://github.com/Vinicius-Justino-IFSP">meus trabalhos.</a>_</p>
+            </div>
+        </footer>
+    </section>
 </body>
 </html>
